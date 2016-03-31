@@ -3,7 +3,6 @@
 ![Pod Version](https://img.shields.io/cocoapods/v/SVProgressHUD.svg?style=flat)
 ![Pod License](https://img.shields.io/cocoapods/l/SVProgressHUD.svg?style=flat)
 ![Pod Platform](https://img.shields.io/cocoapods/p/SVProgressHUD.svg?style=flat)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 `SVProgressHUD` is a clean and easy-to-use HUD meant to display the progress of an ongoing task on iOS and tvOS.
 
@@ -36,26 +35,6 @@ Second, install `SVProgressHUD` into your project:
 ```ruby
 pod install
 ```
-
-### Carthage 
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate `SVProgressHUD` into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "SVProgressHUD/SVProgressHUD"
-```
-
-Run `carthage update` to build the framework and drag the built `SVProgressHUD.framework` (in Carthage/Build/iOS folder) into your Xcode project (Linked Frameworks and Libraries in `Targets`).
-
 
 ### Manually
 
