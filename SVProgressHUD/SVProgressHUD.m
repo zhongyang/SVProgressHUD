@@ -454,6 +454,11 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
     // Update values on subviews
     self.hudView.bounds = CGRectMake(0.0f, 0.0f, MAX(self.minimumSize.width, hudWidth), MAX(self.minimumSize.height, hudHeight));
     labelRect.size.width += MAX(0, self.minimumSize.width - hudWidth);
+
+    if (string && !imageUsed && !progressUsed) {
+        labelRect.origin.y = (CGRectGetHeight(self.hudView.bounds) - labelRect.size.height)/2;
+    }
+
     [self updateBlurBounds];
     
     if(string) {
